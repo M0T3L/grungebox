@@ -1,0 +1,5 @@
+2023-02-27 08:46:23.122 [info] update#setState idle
+2023-02-27 08:46:24.214 [info] Starting extension host with pid 2643 (fork() took 6 ms).
+2023-02-27 08:46:53.124 [info] update#setState checking for updates
+2023-02-27 08:46:53.520 [info] update#setState idle
+2023-02-27 08:53:08.985 [info] Extension host with pid 2643 exited with code: 0, signal: null.

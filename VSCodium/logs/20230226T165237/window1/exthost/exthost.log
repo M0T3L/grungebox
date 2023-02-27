@@ -1,0 +1,15 @@
+2023-02-26 16:52:38.954 [info] Extension host with pid 12373 started
+2023-02-26 16:52:38.954 [info] Skipping acquiring lock for /home/motel/.config/VSCodium/User/workspaceStorage/95a2ac8b7d4e07536c249913f6a99ead.
+2023-02-26 16:52:39.094 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-02-26 16:52:39.095 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-02-26 16:52:39.095 [info] ExtensionService#_doActivateExtension asvetliakov.vscode-neovim, startup: true, activationEvent: '*'
+2023-02-26 16:52:39.159 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-02-26 16:52:39.160 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-02-26 16:52:39.303 [info] Eager extensions activated
+2023-02-26 16:52:39.424 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-02-26 16:52:39.425 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-02-26 16:53:50.944 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2023-02-26 17:22:29.058 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-02-26 17:22:29.059 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-02-26 17:34:33.415 [info] Extension host terminating: received terminate message from renderer
+2023-02-26 17:34:33.429 [info] Extension host with pid 12373 exiting with code 0

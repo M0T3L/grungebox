@@ -1,0 +1,7 @@
+2023-02-27 18:31:26.674 [info] update#setState idle
+2023-02-27 18:31:27.777 [info] Starting extension host with pid 40711 (fork() took 9 ms).
+2023-02-27 18:31:42.726 [info] Extension host with pid 40711 exited with code: 0, signal: null.
+2023-02-27 18:31:43.286 [info] Starting extension host with pid 40792 (fork() took 7 ms).
+2023-02-27 18:31:56.677 [info] update#setState checking for updates
+2023-02-27 18:31:57.139 [info] update#setState idle
+2023-02-27 18:33:36.281 [info] Extension host with pid 40792 exited with code: 0, signal: null.

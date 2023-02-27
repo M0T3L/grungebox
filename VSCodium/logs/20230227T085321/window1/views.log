@@ -1,0 +1,8 @@
+2023-02-27 08:53:22.315 [info] Added views:workbench.panel.markers.view in workbench.panel.markers
+2023-02-27 08:53:22.315 [info] Added views:workbench.panel.output in workbench.panel.output
+2023-02-27 08:53:22.315 [info] Added views:terminal in terminal
+2023-02-27 08:53:22.315 [info] Added views:workbench.scm in workbench.view.scm
+2023-02-27 08:53:22.315 [info] Added views:workbench.view.search in workbench.view.search
+2023-02-27 08:53:22.315 [info] Added views:workbench.explorer.fileView in workbench.view.explorer
+2023-02-27 08:53:22.465 [info] Added views:workbench.debug.welcome in workbench.view.debug
+2023-02-27 08:53:23.062 [info] Added views:workbench.panel.repl.view in workbench.panel.repl

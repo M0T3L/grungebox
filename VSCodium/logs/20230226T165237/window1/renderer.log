@@ -1,0 +1,3 @@
+2023-02-26 16:52:38.339 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'telemetryLogger' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-02-26 16:52:38.350 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.vscode-pull-request-github' wants API proposal 'commentsResolvedState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-02-26 16:52:41.601 [info] [perf] Render performance baseline is 29ms

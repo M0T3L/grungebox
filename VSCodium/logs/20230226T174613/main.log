@@ -1,0 +1,7 @@
+2023-02-26 17:46:13.862 [info] update#setState idle
+2023-02-26 17:46:14.832 [info] Starting extension host with pid 96774 (fork() took 8 ms).
+2023-02-26 17:46:43.864 [info] update#setState checking for updates
+2023-02-26 17:46:44.360 [info] update#setState idle
+2023-02-26 18:46:43.868 [info] update#setState checking for updates
+2023-02-26 18:46:47.865 [info] update#setState idle
+2023-02-26 19:13:24.021 [info] Extension host with pid 96774 exited with code: 0, signal: null.

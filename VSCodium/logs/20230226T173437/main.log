@@ -1,0 +1,6 @@
+2023-02-26 17:34:37.998 [info] update#setState idle
+2023-02-26 17:34:39.029 [info] Starting extension host with pid 80590 (fork() took 10 ms).
+2023-02-26 17:35:07.999 [info] update#setState checking for updates
+2023-02-26 17:35:08.346 [info] update#setState idle
+2023-02-26 17:38:55.932 [info] Waiting for extension host with pid 80590 to exit.
+2023-02-26 17:38:55.936 [info] Extension host with pid 80590 exited with code: 0, signal: null.

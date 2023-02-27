@@ -1,0 +1,5 @@
+{
+    "workbench.colorTheme": "Solarized Dark",
+    "window.menuBarVisibility": "toggle",
+    "vscode-neovim.neovimInitVimPaths.linux": "/home/motel/.config/"
+}

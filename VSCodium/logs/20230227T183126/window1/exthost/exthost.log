@@ -1,0 +1,26 @@
+2023-02-27 18:31:28.175 [info] Extension host with pid 40711 started
+2023-02-27 18:31:28.288 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-02-27 18:31:28.289 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-02-27 18:31:28.289 [info] ExtensionService#_doActivateExtension asvetliakov.vscode-neovim, startup: true, activationEvent: '*'
+2023-02-27 18:31:28.346 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-02-27 18:31:28.346 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-02-27 18:31:28.469 [info] Eager extensions activated
+2023-02-27 18:31:28.577 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-02-27 18:31:28.577 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-02-27 18:31:28.577 [info] ExtensionService#_doActivateExtension sainnhe.gruvbox-material, startup: false, activationEvent: 'onStartupFinished'
+2023-02-27 18:31:42.710 [info] Extension host terminating: received terminate message from renderer
+2023-02-27 18:31:42.717 [info] Extension host with pid 40711 exiting with code 0
+2023-02-27 18:31:43.768 [info] Extension host with pid 40792 started
+2023-02-27 18:31:43.768 [info] Skipping acquiring lock for /home/motel/.config/VSCodium/User/workspaceStorage/a14cc410cf99ac357f37cf3dfb520088.
+2023-02-27 18:31:43.818 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-02-27 18:31:43.819 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-02-27 18:31:43.819 [info] ExtensionService#_doActivateExtension asvetliakov.vscode-neovim, startup: true, activationEvent: '*'
+2023-02-27 18:31:43.891 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-02-27 18:31:43.891 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-02-27 18:31:43.956 [info] Eager extensions activated
+2023-02-27 18:31:43.985 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-02-27 18:31:43.985 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-02-27 18:31:43.985 [info] ExtensionService#_doActivateExtension sainnhe.gruvbox-material, startup: false, activationEvent: 'onStartupFinished'
+2023-02-27 18:31:45.716 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2023-02-27 18:33:36.265 [info] Extension host terminating: received terminate message from renderer
+2023-02-27 18:33:36.274 [info] Extension host with pid 40792 exiting with code 0

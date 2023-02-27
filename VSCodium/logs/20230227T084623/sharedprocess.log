@@ -1,0 +1,7 @@
+2023-02-27 08:46:24.655 [info] Starting worker process with pid 2681 (type: fileWatcher, window: 1).
+2023-02-27 08:48:49.873 [info] Getting Manifest... sainnhe.gruvbox-material
+2023-02-27 08:48:50.272 [info] Installing extension: sainnhe.gruvbox-material
+2023-02-27 08:49:18.631 [info] Extracted extension to /home/motel/.vscode-oss/extensions/.18128f80-5745-47cd-a2ad-73b6b09efb18: sainnhe.gruvbox-material
+2023-02-27 08:49:18.635 [info] Renamed to /home/motel/.vscode-oss/extensions/sainnhe.gruvbox-material-6.5.2-universal
+2023-02-27 08:49:18.636 [info] Extracting completed. sainnhe.gruvbox-material
+2023-02-27 08:49:18.645 [info] Extension installed successfully: sainnhe.gruvbox-material

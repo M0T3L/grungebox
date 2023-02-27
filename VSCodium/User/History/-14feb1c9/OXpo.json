@@ -1,0 +1,13 @@
+{
+    "workbench.colorTheme": "Solarized Dark",
+    "window.menuBarVisibility": "toggle",
+    "vscode-neovim.neovimInitVimPaths.linux": "/home/motel/.config/nvim/init.vim",
+    "editor.fontFamily": "'BitstreamVeraSansMono Nerd Font'",
+    "editor.fontSize": 12,
+    "editor.cursorBlinking": "solid",
+    "workbench.colorCustomizations": {
+        "[Solarized Dark]": { 
+            "editorCursor.background": "#ffffff",
+            "editorCursor.foreground": "#ffffff",
+        }
+    }

@@ -1,0 +1,133 @@
+set $mod Mod4
+
+font pango:Bitstream Vera Sans 10
+
+exec --no-startup-id picom -b
+
+exec --no-startup-id /home/$USER/.config/.fehbg
+
+exec --no-startup-id pasystray
+
+exec --no-startup-id cbatticon
+
+exec --no-startup-id caffeine
+
+exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork -c 282828
+
+exec --no-startup-id nm-applet
+
+set $refresh_i3status killall -SIGUSR1 i3status
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5% && $refresh_i3status
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -5% && $refresh_i3status
+bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
+bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
+bindsym XF86MonBrightnessUp exec --no-startup-id light -A 10
+bindsym XF86MonBrightnessDown exec --no-startup-id light -U 10
+bindsym XF86Calculator exec i3lock --nofork -c 282828
+
+floating_modifier $mod
+
+bindsym $mod+Return exec alacritty
+
+bindsym $mod+w kill
+
+bindsym $mod+d exec --no-startup-id dmenu_run -nb '#282828' -sf '#282828' -sb '#e78a4e' -nf '#d4be98' -fn 'Bitstream Vera Sans' -p 'dmenu'
+
+bindsym $mod+s exec --no-startup-id scrot -q 100 /home/$USER/Files/Pics/ss.png
+
+bindsym $mod+h focus left
+bindsym $mod+j focus down
+bindsym $mod+k focus up
+bindsym $mod+l focus right
+
+bindsym $mod+Shift+h move left
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up
+bindsym $mod+Shift+l move right
+
+bindsym $mod+o split h
+bindsym $mod+p split v
+
+bindsym $mod+6 fullscreen toggle
+bindsym $mod+7 layout stacking
+bindsym $mod+8 layout tabbed
+bindsym $mod+9 layout toggle split
+bindsym $mod+0 floating toggle
+
+bindsym $mod+space focus mode_toggle
+
+bindsym $mod+a focus parent
+
+set $ws1 "1"
+set $ws2 "2"
+set $ws3 "3"
+set $ws4 "4"
+set $ws5 "5"
+
+bindsym $mod+1 workspace number $ws1
+bindsym $mod+2 workspace number $ws2
+bindsym $mod+3 workspace number $ws3
+bindsym $mod+4 workspace number $ws4
+bindsym $mod+5 workspace number $ws5
+
+bindsym $mod+Shift+1 move container to workspace number $ws1
+bindsym $mod+Shift+2 move container to workspace number $ws2
+bindsym $mod+Shift+3 move container to workspace number $ws3
+bindsym $mod+Shift+4 move container to workspace number $ws4
+bindsym $mod+Shift+5 move container to workspace number $ws5
+
+bindsym $mod+Shift+c reload
+bindsym $mod+Shift+r restart
+bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+
+mode "resize" {
+        bindsym Left resize shrink width 10 px or 10 ppt
+        bindsym Down resize grow height 10 px or 10 ppt
+        bindsym Up resize shrink height 10 px or 10 ppt
+        bindsym Right resize grow width 10 px or 10 ppt
+
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+        bindsym $mod+r mode "default"
+}
+
+bindsym $mod+r mode "resize"
+
+set $bg       #282828
+set $fg       #d4be98
+set $red      #ea6962
+set $orange   #e78a4e
+set $green    #a9b665
+set $blue     #7daea3
+set $purple   #d3869b
+set $aqua     #89b482
+set $darkgray #282828
+
+bar {
+	position top
+        status_command i3status
+	i3bar_command i3bar
+	tray_output primary	
+        colors {
+            background $bg
+            statusline $fg
+            focused_workspace    $orange    $orange     $bg
+            inactive_workspace   $bg        $bg		$fg
+            active_workspace     $bg        $bg		$fg
+            urgent_workspace     $red       $red        $fg
+        }
+}
+
+default_border pixel 1
+gaps inner 20
+
+client.focused          $orange     $orange     $bg     $orange     $orange
+client.focused_inactive $aqua       $aqua       $bg     $aqua       $aqua
+client.unfocused        $bg         $bg         $bg     $bg         $bg
+client.urgent           $red        $red        $bg     $red        $red
+client.placeholder      $bg         $bg         $bg     $bg         $bg
+client.background       $bg
+
+mouse_warping none
+
+bindsym $mod+q bar mode toggle
